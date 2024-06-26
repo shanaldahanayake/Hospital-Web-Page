@@ -437,5 +437,145 @@ h1.bm{
     padding-top: 20px;
 }
 
+.about{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
 
+h1.abo{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #0dabfd;
+}
 
+p.pabo{
+   color: #0dabfd;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 20px;
+   text-align: justify;
+   align-content: left; 
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.service{
+    margin: auto;
+    width: 85%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.servicecol p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #0dabfd;
+}
+
+.doc-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/doctorcover.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.doctor{
+    width: 60%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.doctorcol{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.doctorcol img{
+    width: 70%;
+}
+
+.doctorcol p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    color: #0dabfd;
+}
+
+.doctorcol a{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #0dabfd;
+    padding-left: 20px;
+}
+
+.location{
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+    align-content: center;
+}
+.location iframe{
+    width: 100%;
+}
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-right: 5px;
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #0dabfd;
+    font-weight: 400;
+    margin-left: 80px;
+}
+
+.contact-col input,.contact-col textarea{
+    width: 85%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.b-btn{
+    border: 1px solid #0dabfd;
+    background:transparent;
+    color: #0dabfd;
+}
+
+.b-btn:hover{
+    color: #fff;
+}
